@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    font-family: "Montserrat";
+}
+body{
+    background-color: #f8f8f8;
+}
+button{
+    cursor: pointer;
+}
+.header{
+    background-color: white;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    padding: 15px 50px;
+}
+.header i{
+    display: none;
+}
+.header h1{
+    font-size: 28px;
+}
+.logo img{
+    width: 40px;
+    cursor: pointer;
+}
+.header ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-left: 650px;
+    cursor: pointer;
+}
+.header h2{
+    padding: 0px 20px;
+    cursor: pointer;
+}
+.btn{
+    background-color: #7c4ee4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+}
+.header span{
+    color: #7c4ee4;
+}
+
+.main{
+    height: 300px;
+    width: 1123px;
+    background-size: cover;
+    background-image: url(/asistes/back.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 10px;
+    padding: 110px 70px;
+}
+
+
+
+.left {
+    width: 600px;
+    color: white;
+}
+.left h1{
+    font-size: 53px;
+    padding: 20px 0;
+}
+.left p{
+    width: 500px;
+}
+/* .main h1{
+    background-color: aliceblue;
+    width: 700px;
+    font-size: 68px;
+} */
+
+.right img{
+    margin-left: 40px;
+    width: 450px;
+    height: 350px;
+    border-radius:  8px;
+}
+.left button{
+    margin-top: 30px;
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: black;
+}
+
+
+
+.section1{
+    padding: 100px 80px;
+    width: 1100px;
+    height: 500px;
+
+}
+.section1 img{
+    position: relative;
+    width: 1100px;
+    height: 500px;
+    border-radius: 8px;
+}
+
+.text{
+    position: absolute;
+    bottom: -690px;
+    left: 340px;
+    width: 850px;
+    height: 220px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+.h6-p{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.h6-p p{
+    color: gray;
+    font-size: 12px;
+}
+.section1 h4{
+    font-size: 22px;
+    width: 630px;
+    padding-bottom: 15px;
+}
+.section1 p{
+    color: gray;
+}
+.btn0{
+    background-color: #7c4ee4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+}
+.btn2{
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid #7c4ee4;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: black;
+}
+
+
+.section2{
+    margin:50px 80px ;
+
+}
+.sect{
+    display: flex;
+    padding-top: 40px;
+
+}
+.recent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left2 img{
+    width: 450px;
+    height: 320PX;
+    border-radius: 8px;
+}
+.right2{
+    padding-left: 40px;
+}
+.right2 h4{
+    width: 400px;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+.right2 p{
+    color: gray;
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+
+
+.section3{
+    display: flex;
+    margin: 20px 80px;
+    gap: 30px;
+}
+
+.i1{
+    width: 350px;
+}
+.i1 img{
+    width: 350px;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.i1 h4{
+    width: 300px;
+    margin-top: -20px;
+}
+.i1 p{
+    color: gray;
+    padding: 10px 0px;
+    font-size: 12px;
+}
+.btn3{
+    margin-left: -5px;
+    background-color: #f8f8f8;
+    border: none;
+    color:#7c4ee4;
+    font-weight: bold;
+}
+
+
+.section4{
+    margin: 60px 80px;
+}
+.section5{
+    display: flex;
+    margin: 20px 80px;
+    gap: 30px;
+}
+
+
+.section6{
+    margin: 80px 0px;
+    background-image: url(/asistes/back.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    height: 300px;
+    height: 20px;
+    padding-bottom: 380px;
+    text-align: center;
+    padding-top: 50px;
+}
+.section6 h2{
+    text-align: center;
+    margin: 60px 330px;
+    color: white;
+    width: 600px;
+    font-size: 38px;
+}
+.section6 p{
+    color: rgb(211, 211, 211);
+    width: 600px;
+    margin: 20px 330px;
+}
+.inbox{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.inbox button{
+    margin-top: 10px;
+    border: 1px solid white;
+    background-color: #7c4ee4;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+}
+.inbox input{
+    border-radius: 8px;
+    border: none;
+    padding: 5px 15px;
+    height: 30px;
+    margin-top: 9px;
+}
+
+
+.logos{
+    display: flex;
+    justify-content: center;
+}
+.logos img{
+    width: 40px;
+    cursor: pointer;
+}
+.links ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    list-style: none;
+    justify-content: center;
+    cursor: pointer;
+}
+.contects{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin: 20px;
+}
+.contects button{
+    background-color: #7c4ee4;
+    border: none;
+    border-radius: 100%;
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer{
+    border-top: 2px solid #ad8afe;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    margin: 60px 0px 0px 65px;
+}
+.footer p{
+    color: gray;
+    font-size: 14px;
+    padding: 30px 0px;
+}
+
+
+@media screen and (max-width:600px){
+    .header ul, h2,button{
+        display: none;
+    }
+    .header{
+        margin-left: -30px;
+        padding-top: 20px;
+    }
+    .header i{
+        display: initial;
+        margin-left: 190px;
+        font-size: 26px;
+    }
+    .main{
+        width: 250px;
+        height: 700px;
+    }
+    /* .btn button{
+        display: none;
+    } */
+    .left {
+        width: 400px;
+        margin-left: -35px;
+        font-size: 22px;
+    }
+    .left p{
+        width: 350px;
+        font-size: 18px;
+    }
+    .left button{
+        display: initial;
+    }
+    .right{
+        margin-left: -415px;
+        margin-top: 500px;
+    }
+    .right img{
+        width: 350px;
+        height: 250px;
+    }
+    /* .section1{
+        background-color: aqua;
+    } */
+    .section1 img{
+        width: 340px;
+        height: 280px;
+        margin-left: -55px;
+    }
+    .text{
+        margin-left: -330px;
+        width: 325px;
+        height: 380px;
+        top: 1400px;
+
+    }
+    .text button{
+        display: initial;
+        margin-top: 20px;
+    }
+    .text h4{
+        width: 300px;
+    }
+    .recent{
+        margin-top: 200px;
+        width: 350px;
+        margin-left: -60px;
+    }
+    .recent h1{
+        font-size: 24px;
+        color: black;
+    }
+    .btn0{
+        display: initial;
+    }
+    .sect{
+        display: none;
+    }
+    .section3{
+        
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .section4{
+        margin-top: -160px;
+        
+    }
+    .section5{
+        width: 350px;
+        margin-left: 20px;
+        flex-direction: column;
+    }
+    .btn3{
+        display: initial;
+    }
+    .section6{
+        display: flex;
+        flex-direction: column;
+    }
+    .section6 h2{
+        display: initial;
+        font-size: 22px;
+        text-align: center;
+        width: 300px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .section6 p{
+        margin-left: 50px;
+        width: 300px;
+    }
+    .section6 button{
+        display: initial;
+    }
+    .contects button{
+        display: initial;
+    }
+    .footer{
+        margin: 0px;
+        width: 390px;
+    }
+    
+    /* .recent{
+        display: initial;
+    } */
+
+
+}
